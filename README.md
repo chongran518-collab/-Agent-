@@ -1,5 +1,17 @@
 # 审计智能体应用平台
 
+<p align="center">
+  <img src="docs/assets/readme/logo.ico" width="72" alt="审计智能体 Logo" />
+</p>
+
+<p align="center">
+  <strong>面向审计问答、底稿生成与表格分析的 AI 智能体应用平台</strong>
+</p>
+
+<p align="center">
+  <img src="docs/assets/readme/home.png" alt="审计智能体应用平台首页" />
+</p>
+
 一个面向审计工作场景的 AI 智能体应用项目，包含 Spring Boot 后端与 Vue 3 前端。项目围绕审计问答、审计底稿生成、文件上传、表格导入、自然语言生成 SQL 与 SQL 查询分析等流程构建，适合用于审计辅助、底稿自动化和数据分析场景的原型验证。
 
 ## 项目特点
@@ -11,6 +23,20 @@
 - 表格数据分析：支持上传 Excel 表格，导入 MySQL 后执行 SQL 查询。
 - 自然语言转 SQL：根据用户问题和表名生成查询语句。
 - 前后端分离：前端使用 Vue 3 + Vite，后端使用 Spring Boot + Spring AI。
+
+## 界面预览
+
+### AI 审计问答
+
+![AI 审计问答界面](docs/assets/readme/audit-master.png)
+
+### 审计底稿生成
+
+![审计底稿生成界面](docs/assets/readme/audit-generate.png)
+
+### 表格上传与 SQL 分析
+
+![表格上传与 SQL 分析界面](docs/assets/readme/table-sql.png)
 
 ## 技术栈
 
